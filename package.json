@@ -1,0 +1,38 @@
+{
+  "name": "node-typescript-template",
+  "version": "1.0.0",
+  "description": "Starter template for developing Node.js applications with Typescript.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "NODE_ENV=test jest --verbose --coverage",
+    "test:watch": "NODE_ENV=test jest --verbose --coverage --watchAll",
+    "serve": "NODE_ENV=development nodemon --exec 'ts-node' src/index.ts",
+    "start": "NODE_ENV=production ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonypenna/node-typescript-template.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "starter",
+    "kit",
+    "template"
+  ],
+  "author": "anthonypenna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonypenna/node-typescript-template/issues"
+  },
+  "homepage": "https://github.com/anthonypenna/node-typescript-template#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
