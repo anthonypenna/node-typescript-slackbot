@@ -27,5 +27,5 @@ $ npm run serve
 **Run application in production mode**
 
 ```sh
-$ npm run test:watch
+$ npm start
 ```
