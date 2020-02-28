@@ -1,8 +1,15 @@
-# Node Typescript Template
+# Node Typescript Slackbot
 
-Starter template for developing Node.js applications with Typescript.
+An example Slack Bot made with Node and Typescript.
 
-Includes `Jest`.
+The bot in this example pings the whole channel, then sends a GIF.
+
+## Setup
+
+To work, you need a `.env` file containing two keys:
+
+- Hook - The webhook of the channel ([read more](https://api.slack.com/apps/AUKECMTUL/incoming-webhooks?))
+- Token - The bot token
 
 ## Commands
 
