@@ -8,7 +8,7 @@ The bot in this example pings the whole channel, then sends a GIF.
 
 To work, you need a `.env` file containing two keys:
 
-- Hook - The webhook of the channel ([read more](https://api.slack.com/apps/AUKECMTUL/incoming-webhooks?))
+- Hook - The webhook of the channel ([read more](https://api.slack.com/messaging/webhooks))
 - Token - The bot token
 
 ## Commands
